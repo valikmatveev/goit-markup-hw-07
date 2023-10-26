@@ -1,0 +1,367 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+    width: 1600px;
+
+}
+
+header {
+    width: 1600px;
+    height: 80px;
+    line-height:500%;
+    vertical-align: middle;
+}
+
+.logotip {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    padding-left: 215px;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.logo-studio-header {
+    color: #000;
+}
+
+.logo-studio-footer {
+    color: #fff;
+}
+
+nav {
+    display: inline;
+    padding-left: 93px;
+    word-spacing: 50px;
+}
+
+.navigation-menu {
+    color: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.navigation-menu:hover {
+    color: #2196F3;
+}
+
+.navigation-menu:focus {
+    color: #2196F3;
+}
+
+.contacts {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+    word-spacing: normal;
+}
+
+.email {
+    padding-left: 294px;
+}
+
+.tel {
+    padding-left: 50px;
+}
+
+.contacts.footer {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.contacts:hover {
+    color: #2196F3;
+}
+
+.contacts:focus {
+    color: #2196F3;
+}
+
+.address {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 171.429%;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+.solutions {
+    width: 1600px;
+    height: 600px;
+    background: #2F303A;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 94px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136.364%;
+    /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.order-button {
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 187.5%;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+}
+
+.order-button:hover {
+    cursor: pointer;
+}
+
+.advantages-class {
+    margin-left: 215px;
+}
+
+.advantages {
+    width: 270px;
+    display: inline-block;
+    padding-inline-end: 30px;
+    vertical-align: top;
+}
+
+.advantages-titles {
+    color: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.advantages-desc {
+    color: #757575;
+    font-size: 14px;
+    line-height: 171.429%;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.cases-class {
+    padding-bottom: 94px;
+}
+.cases-title {
+    margin: 0;
+    color: inherit;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.cases-list {
+    padding: 0;
+    margin: 0;
+    margin-left: 215px;
+}
+.cases-photos {
+    list-style-type: none;
+    display: inline;
+    padding-inline-end: 30px;
+}
+
+.team-class {
+background: #F5F4FA;
+width: 1600px;
+height: 648px;
+}
+
+.team-title {
+    margin: 0;
+    margin-bottom: 50px;
+    padding-top: 94px;
+    text-align: center;
+    color: inherit;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 1.08px;
+}
+
+.team-list {
+    padding: 0;
+    margin: 0;
+    margin-left: 215px;
+}
+
+
+.team-person {
+    list-style-type: none;
+    display: inline;
+}
+
+
+.team-cards {
+    margin: 0;
+    display: inline-block;
+    width: 270px;
+    height: 368px;
+background: #fff;
+margin-inline-end: 30px;
+text-align: center;
+}
+
+.team-name {
+    color: inherit;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.48px;
+}
+
+.team-profession {
+color: #757575;
+font-size: 16px;
+font-style: normal;
+letter-spacing: 0.48px;
+}
+
+footer {
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    padding-top: 60px;
+}
+
+.logo-studio-footer{ 
+color: #FFF;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.78px;
+}
+
+address {
+    padding-left: 215px;
+    font-size: 14px;
+    line-height: 171.429%; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+.address-post {
+    padding-top: 20px;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+.address-contacts {
+    padding-bottom: 10px;
+}
+
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.contacts-footer:hover {
+    color: #2196F3;
+ }
+
+ .contacts-footer:focus {
+    color: #2196F3;
+ }
+
+.filters-class {
+text-align: center;
+padding-top: 94px;
+}
+
+.filter-item {
+    display: inline;
+    padding-inline-end: 8px;
+
+}
+
+.filter-button {
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 4px;
+background: #F5F4FA;
+color: inherit;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.5%; /* 162.5% */
+letter-spacing: 0.48px;
+}
+
+.filter-button:hover {
+    cursor: pointer;
+    background: #2196F3;
+    /* shadow-middle */
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+            0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+color: #fff
+}
+
+.filter-button:focus {
+    background: #2196F3;
+    /* shadow-middle */
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+            0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+color: #fff
+}
+
+.portfolio {
+    padding-left: 215px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.portfolio-item {
+    display: inline-block;
+padding-inline-end: 30px;
+}
+
+.portfolio-card {
+    margin: 0;
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEE;
+background: #FFF;
+}
+
+.portfolio-title {
+margin: 0;
+padding-top: 20px;
+padding-left: 24px;
+    color: inherit;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 200%; /* 200% */
+letter-spacing: 1.08px;
+}
+
+.portfolio-desc {
+    padding-left: 24px;
+    color: #757575;
+font-size: 16px;
+font-style: normal;
+line-height: 187.5%; /* 187.5% */
+letter-spacing: 0.48px;
+}
