@@ -1,0 +1,23 @@
+.solutions {
+    width: 1600px;
+    height: 600px;
+    background: #2F303A;
+    text-align: center;
+    color: $primaryColorWhite;
+    padding-top: 200px;
+    background-image: url(/images/overlay.png), url(/images/background.jpg);
+    background-size: 1600px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 136.364%;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.solutions__button-order {
+    @extend .button;
+}

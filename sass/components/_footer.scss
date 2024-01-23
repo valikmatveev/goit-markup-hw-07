@@ -1,0 +1,92 @@
+footer {
+    background: $fourthColorGrey;
+    width: 1600px;
+    height: 252px;
+    padding-top: 60px;
+}
+
+.footer__content-wrapper {
+    display: flex;
+}
+
+// footer contacts
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__address {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: $primaryColorWhite;
+    font-size: 14px;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+    font-style: normal;
+}
+
+.footer__contacts-item {
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    padding-top: 10px;
+
+    &:hover, &:focus {
+        color: $primaryColorBlue;
+        animation: cursorMoveInContactsFooter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+// footer socials
+
+.footer__social {
+    margin-left: 70px;
+    margin-right: 93px;
+}
+
+.footer__social-title {
+    color: $primaryColorWhite;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+// footer subscribe
+
+.footer__subscribe-title {
+    color: $primaryColorWhite;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.footer__subscribe-input {
+    color: $primaryColorWhite;
+    width: 358px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    margin-right: 12px;
+}
+
+// footer button
+
+.footer__button-subscribe {
+    @extend .button;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+

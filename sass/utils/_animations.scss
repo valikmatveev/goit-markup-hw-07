@@ -1,0 +1,85 @@
+@keyframes cursorMoveOut {
+    from {
+        color: $primaryColorBlue;
+    }
+
+    to {
+        color: $primaryColorBlack;
+    }
+}
+
+@keyframes cursorMoveIn {
+    from {
+        color: $primaryColorBlack;
+    }
+
+    to {
+        color: $primaryColorBlue;
+    }
+}
+
+@keyframes cursorMoveInIcon {
+    from {
+        background-color: $primaryColorWhite;
+    }
+
+    to {
+        background-color: $primaryColorBlue;
+    }
+}
+
+@keyframes cursorMoveInClient {
+    from {
+        border-color: $primaryColorGrey;
+        fill: $primaryColorGrey;
+    }
+
+    to {
+        border-color: $primaryColorBlue;
+        fill: $primaryColorBlue;
+    }
+}
+
+@keyframes cursorMoveInContactsFooter {
+    from {
+        color: rgba(255, 255, 255, 0.60);
+    }
+
+    to {
+        color: $primaryColorBlue;
+    }
+}
+
+@keyframes cursorMoveInIconFooter {
+    from {
+        background-color: rgba(255, 255, 255, 0.10);
+    }
+
+    to {
+        background-color: $primaryColorBlue;
+    }
+}
+
+@keyframes cursorMoveInFilterButton {
+    from {
+        background: #F5F4FA;
+        color: $primaryColorBlack;
+    }
+
+    to {
+        background: $primaryColorBlue;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+            0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+        color: $primaryColorWhite;
+    }
+}
+
+@keyframes cursorMoveInCardPortfolio {
+    from {
+        box-shadow: 0;
+    }
+
+    to {
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    }
+}

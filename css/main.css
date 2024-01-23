@@ -1,0 +1,1059 @@
+/*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*
+Document
+========
+*/
+/**
+Use a better box model (opinionated).
+*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.15; /* 1. Correct the line height in all browsers. */
+  -webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
+  -moz-tab-size: 4; /* 3. Use a more readable tab size (opinionated). */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+}
+
+/*
+Sections
+========
+*/
+body {
+  margin: 0; /* Remove the margin in all browsers. */
+}
+
+/*
+Grouping content
+================
+*/
+/**
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+*/
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+}
+
+/*
+Text-level semantics
+====================
+*/
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/**
+Add the correct font weight in Edge and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+Tabular data
+============
+*/
+/**
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+*/
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+}
+
+/*
+Forms
+=====
+*/
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+button,
+select {
+  text-transform: none;
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+*/
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+Restore the focus styles unset by the previous rule.
+*/
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+Remove the additional ':invalid' styles in Firefox.
+See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
+*/
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+legend {
+  padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Interactive
+===========
+*/
+/*
+Add the correct display in Chrome and Safari.
+*/
+summary {
+  display: list-item;
+}
+
+*, *:after, v*:before {
+  box-sizing: border-box;
+  min-width: 0;
+  outline: none;
+  scrollbar-width: thin;
+}
+
+input {
+  outline: none;
+}
+
+h3 {
+  margin: 0;
+}
+
+.content-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__name, .clients__title, .team__title, .cases__title {
+  margin: 0;
+  color: inherit;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+.button, .solutions__button-order, .footer__button-subscribe {
+  border: 0;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196F3;
+  color: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 187.5%;
+  letter-spacing: 0.96px;
+}
+.button:hover, .solutions__button-order:hover, .footer__button-subscribe:hover {
+  cursor: pointer;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+
+.logo-web {
+  color: #2196F3;
+}
+
+.header__logo-studio {
+  color: #000;
+}
+
+.footer__logo-studio {
+  color: #FFF;
+}
+
+.social-icons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-item, .footer__social-item, .team__social-item {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-item:hover, .footer__social-item:hover, .team__social-item:hover, .social-item:focus, .footer__social-item:focus, .team__social-item:focus {
+  cursor: pointer;
+  background-color: #2196F3;
+  fill: #FFF;
+  animation: cursorMoveInIconFooter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__social-item {
+  background-color: #FFF;
+  fill: #AFB1B8;
+}
+
+.footer__social-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #FFF;
+}
+
+@keyframes cursorMoveOut {
+  from {
+    color: #2196F3;
+  }
+  to {
+    color: #212121;
+  }
+}
+@keyframes cursorMoveIn {
+  from {
+    color: #212121;
+  }
+  to {
+    color: #2196F3;
+  }
+}
+@keyframes cursorMoveInIcon {
+  from {
+    background-color: #FFF;
+  }
+  to {
+    background-color: #2196F3;
+  }
+}
+@keyframes cursorMoveInClient {
+  from {
+    border-color: #AFB1B8;
+    fill: #AFB1B8;
+  }
+  to {
+    border-color: #2196F3;
+    fill: #2196F3;
+  }
+}
+@keyframes cursorMoveInContactsFooter {
+  from {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  to {
+    color: #2196F3;
+  }
+}
+@keyframes cursorMoveInIconFooter {
+  from {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  to {
+    background-color: #2196F3;
+  }
+}
+@keyframes cursorMoveInFilterButton {
+  from {
+    background: #F5F4FA;
+    color: #212121;
+  }
+  to {
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    color: #FFF;
+  }
+}
+@keyframes cursorMoveInCardPortfolio {
+  from {
+    box-shadow: 0;
+  }
+  to {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  }
+}
+.body {
+  font-family: Roboto;
+  color: #212121;
+  width: 1600px;
+  margin: 0 auto;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.header__content-wrapper {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 93px;
+  display: flex;
+  gap: 50px;
+}
+
+.header__navigation-link {
+  color: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  position: relative;
+}
+.header__navigation-link::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: -28px;
+  background: #2196F3;
+  transition-property: width;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.15s;
+  right: 0;
+}
+.header__navigation-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+.header__navigation-link:hover, .header__navigation-link:focus {
+  color: #2196F3;
+  animation: cursorMoveIn 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header__contacts-item {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__contacts-item:hover, .header__contacts-item:focus {
+  color: #2196F3;
+  animation: cursorMoveIn 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.envelope-icon {
+  fill: currentColor;
+  height: 12px;
+}
+
+.smartphone-icon {
+  fill: currentColor;
+  margin-left: 30px;
+  width: 16px;
+}
+
+footer {
+  background: #2F303A;
+  width: 1600px;
+  height: 252px;
+  padding-top: 60px;
+}
+
+.footer__content-wrapper {
+  display: flex;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__address {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 171.429%;
+  letter-spacing: 0.42px;
+  font-style: normal;
+}
+
+.footer__contacts-item {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  padding-top: 10px;
+}
+.footer__contacts-item:hover, .footer__contacts-item:focus {
+  color: #2196F3;
+  animation: cursorMoveInContactsFooter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__social {
+  margin-left: 70px;
+  margin-right: 93px;
+}
+
+.footer__social-title {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.footer__subscribe-title {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.footer__subscribe-input {
+  color: #FFF;
+  width: 358px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  margin-right: 12px;
+}
+
+.footer__button-subscribe {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.solutions {
+  width: 1600px;
+  height: 600px;
+  background: #2F303A;
+  text-align: center;
+  color: #FFF;
+  padding-top: 200px;
+  background-image: url(/images/overlay.png), url(/images/background.jpg);
+  background-size: 1600px;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 136.364%;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.backdrop {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: scale(0.5);
+}
+
+.is-hidden .modal {
+  transform: scale(0.5);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  height: 581px;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin-left: -264px;
+  margin-top: -290.5px;
+  transform: scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__close-button {
+  margin-left: 490px;
+  margin-top: 8px;
+  padding: 0;
+  background-color: #FFF;
+  background-size: cover;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal__close-button:hover {
+  cursor: pointer;
+  fill: #2196F3;
+}
+
+.modal__signup-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal__signup-fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.modal__title {
+  margin: 0;
+  margin-bottom: 2px;
+  color: #212121;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-left: 60px;
+}
+
+.modal__signup-input-title {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 40px;
+  text-align: left;
+  color: #757575;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.modal__signup-input-wrapper {
+  position: relative;
+  width: 448px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-left: 40px;
+}
+
+.modal__signup-input {
+  padding: 0;
+  padding-left: 42px;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal__signup-input:focus {
+  border-color: #2196F3;
+}
+.modal__signup-input:focus + .modal__signup-icon {
+  fill: #2196F3;
+}
+
+.modal__signup-icon {
+  position: absolute;
+  left: 12px;
+  top: 11px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__signup-input-comment {
+  outline: none;
+  padding: 12px 16px;
+  margin-left: 40px;
+  width: 448px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal__signup-input-comment::-moz-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.modal__signup-input-comment::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.modal__signup-input-comment:focus {
+  border-color: #2196F3;
+}
+
+.modal__licence-agreement-label {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 52px;
+  padding-left: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.modal__checkbox {
+  position: absolute;
+  left: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.modal__checkbox:checked + .modal__checkbox-icon {
+  background-image: url(/icons/checkbox-checked.svg);
+}
+
+.modal__checkbox-icon {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  left: 0;
+  background-image: url(/icons/checkbox.svg);
+}
+
+.modal__agreement-link {
+  color: #2196F3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  text-decoration-line: underline;
+}
+
+.modal__button-signup {
+  margin: 30px auto;
+}
+
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  max-width: 270px;
+}
+
+.advantages__icon-layout {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: #F5F4FA;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages__name {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.advantages__desc {
+  color: #757575;
+  font-size: 14px;
+  line-height: 171.429%;
+  letter-spacing: 0.42px;
+}
+
+.cases > .section {
+  padding-top: 0;
+}
+
+.cases__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cases__item {
+  list-style-type: none;
+  height: 294px;
+  position: relative;
+  z-index: -1;
+}
+
+.cases__name {
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+}
+
+.team > .section {
+  padding-top: 0;
+}
+
+.team {
+  background: #F5F4FA;
+  width: 1600px;
+}
+
+.team__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__card {
+  margin: 0;
+  width: 270px;
+  background: #FFF;
+  text-align: center;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team__name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.team__profession {
+  margin-bottom: 16px;
+  color: #757575;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__item {
+  display: flex;
+  width: 170px;
+  height: 92px;
+}
+
+.clients__link {
+  width: 170px;
+  height: 92px;
+  text-align: center;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.clients__link:focus, .clients__link:hover {
+  cursor: pointer;
+  border-color: #2196F3;
+  fill: #2196F3;
+  animation: cursorMoveInClient 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filters > .section {
+  padding-bottom: 0;
+}
+
+.filters__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.filter__button {
+  height: 38px;
+  padding: 0 22px;
+  border-radius: 4px;
+  background: #F5F4FA;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162.5%;
+  letter-spacing: 0.48px;
+  border: 0;
+}
+.filter__button:hover, .filter__button:focus {
+  cursor: pointer;
+  background: #2196F3;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  color: #FFF;
+  animation: cursorMoveInFilterButton 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio > .section {
+  padding-top: 0;
+}
+
+.portfolio {
+  margin-top: 50px;
+}
+
+.portfolio__list {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.portfolio__card {
+  margin: 0;
+  width: 370px;
+  background: #FFF;
+}
+.portfolio__card:hover {
+  cursor: pointer;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.portfolio__card:hover .portfolio__overlay {
+  transform: translateY(0);
+  background-color: #2196F3;
+  color: #FFF;
+}
+
+.portfolio__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translatey(100%);
+  background-color: #2196F3;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 63px 24px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+  transition-property: transform;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio__photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio__title {
+  border-left: 1px solid #EEE;
+  border-right: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+}
+
+.portfolio__name {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 24px;
+  color: inherit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 1.08px;
+}
+
+.portfolio__desc {
+  padding-left: 24px;
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 187.5%;
+  letter-spacing: 0.48px;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */

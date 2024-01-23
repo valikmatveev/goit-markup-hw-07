@@ -1,0 +1,36 @@
+.cases>.section {
+    padding-top: 0;
+}
+
+.cases__title {
+ @extend .section__name;
+}
+
+.cases__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cases__item {
+    list-style-type: none;
+    height: 294px;
+    position: relative;
+    z-index: -1;
+}
+
+.cases__name {
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.80);
+    color: $primaryColorWhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+}

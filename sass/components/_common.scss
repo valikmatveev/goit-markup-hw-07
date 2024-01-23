@@ -1,0 +1,33 @@
+*, *:after,v*:before {
+    box-sizing: border-box;
+    min-width: 0;
+    outline: none;
+    scrollbar-width: thin;
+}
+
+input {
+    outline: none;
+}
+
+h3 {
+    margin: 0;
+}
+
+.content-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section__name {
+    margin: 0;
+    color: inherit;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
