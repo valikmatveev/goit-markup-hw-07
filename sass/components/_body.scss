@@ -1,0 +1,9 @@
+.body {
+    font-family: $primaryFont;
+    color: $primaryColorBlack;
+    width: 1600px;
+    margin: 0 auto;
+    background: $primaryColorWhite;
+    display: flex;
+    flex-direction: column;
+}
